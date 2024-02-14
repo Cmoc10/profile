@@ -1,0 +1,232 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": [
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://profile-437bd-default-rtdb.firebaseio.com/",
+                                "QueryParameters": {
+                                    "apiKey": "AIzaSyBA3Gc1htn0cdoag5pzwN0N7zPsClWEHyI"
+                                }
+                            },
+                            "children": [],
+                            "id": "9bc71941-e7eb-495a-99ad-e8e1b433bd79",
+                            "thunkableVersion": 443,
+                            "name": "Firebase"
+                        }
+                    ]
+                }
+            },
+            "assets": {
+                "65c2522050179b325d61defa": {
+                    "externalStorageType": "GCS",
+                    "_id": "65c2522050179b325d61defa",
+                    "size": "15161",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "colingram-high-resolution-logo.png",
+                    "backendURI": "/project/65c24fc5d7a1a3ca63dd52cd/getasset/65c2522050179b325d61defa",
+                    "name": "colingram-high-resolution-logo.png",
+                    "externalName": "users/65aea2cb1030ae7e111f55bf/projects/65c24fc5d7a1a3ca63dd52cd/assets/65c2522050179b325d61defa",
+                    "createdAt": "2024-02-06T15:37:04.785Z",
+                    "updatedAt": "2024-02-06T15:37:04.785Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea2cb1030ae7e111f55bf/projects/65c24fc5d7a1a3ca63dd52cd/assets/65c2522050179b325d61defa?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240214%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240214T024911Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=bcfe0e156b6e6909ef951445e387fe621d5099d4d7a484f18307b627cd3dfb88778501ea6d289c8475d0134c2c645a13437273020129d530f1a77ae63895fce543dacea25d24f862fe732a773bd321447ccc23c66ef65dc0792ace3908b4488c41964a1e60ec27cdde4ffb861c700f6c2d6ca6437e4f862e802bdcf77164b700616166d75f6eda4022a5bf8360620af63f9ae4dcd2d9ec35630f48d4582ac5571cd10cb2c507b5ec057910c6dc08402f90f003f1cc8355084e94b4d77a02a47112bdbbf1af00c2e8ce813b360497815856c2ae51564e2d58779af57256e4f4d2a6b3d6136b9617b588543633a553eec5b4140389b672ca7e4f3543692d311400",
+                    "signedUrlExpirationTime": 1708051751064
+                }
+            },
+            "backendUpgradeVersion": 24,
+            "blockly": {
+                "c062d78c-4969-4930-99fc-220afcabe8a1": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "b7fd2aa0-b536-4b13-b83d-5171148fc99f": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "7caf5189-1cdc-49ee-8028-142c57fbca59": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                }
+            },
+            "categories": [
+                "Books"
+            ],
+            "components": {
+                "children": [
+                    {
+                        "id": "c062d78c-4969-4930-99fc-220afcabe8a1"
+                    },
+                    {
+                        "id": "b7fd2aa0-b536-4b13-b83d-5171148fc99f"
+                    },
+                    {
+                        "id": "7caf5189-1cdc-49ee-8028-142c57fbca59"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "profile",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": null,
+                "firebaseDatabaseURL": null,
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "11f48d54-bfb0-4e0d-bb7b-1481e5a1e3d4": {
+                    "scope": "APP",
+                    "name": "c_email",
+                    "screenId": "c062d78c-4969-4930-99fc-220afcabe8a1"
+                },
+                "5f263ced-02fe-49bf-9eff-ffd91761b0ac": {
+                    "scope": "APP",
+                    "name": "c_password",
+                    "screenId": "c062d78c-4969-4930-99fc-220afcabe8a1"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
